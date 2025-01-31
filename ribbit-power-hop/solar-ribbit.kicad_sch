@@ -1,0 +1,2523 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "9ed354c1-be1e-4ed3-9daf-708fd38c762e")
+	(paper "A4")
+	(title_block
+		(date "2025-01-04")
+	)
+	(lib_symbols
+		(symbol "DB:54-00125"
+			(pin_names hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "3.5mm/1.1mm"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprints:54-00125"
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://parts.djgood.ca/en/part/101/info"
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power Barrel Connector Jack 1.10mm ID (0.043\"), 3.50mm OD (0.138\") Through Hole, Right Angle"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Connectors/Power Connectors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "54-00125"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Tensility International Corp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturing Status" "Active"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB ID" "101"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "BarrelJack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "54-00125_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -3.302 3.175)
+					(mid -3.9343 2.54)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 3.175)
+					(mid -3.9343 2.54)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.286) (xy 1.905 -1.651)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 1.27 0) (xy 1.27 -2.286) (xy 0.635 -1.651)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.683 3.175)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "54-00125_1_1"
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DB:AA-CONTACT-SMD"
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AA-CONTACT-SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprints:AA-CONTACT-SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://parts.djgood.ca/en/part/79/info"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Battery Contact Clip Multiple 1 Cell SMD (SMT) Tab"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Miscellaneous/Battery Contacts"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "53"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Keystone Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturing Status" "Active"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB ID" "79"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AA-CONTACT-SMD_1_1"
+				(rectangle
+					(start 0 0)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 13.97 -2.54 180)
+					(length 3.81)
+					(name "CONTACT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DB:SM04B-SRSS-TB"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN"
+				(at -1.27 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SM04B-SRSS-TB"
+				(at -1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "footprints:JST_SH_SM04B-SRSS-TB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://parts.djgood.ca/en/part/24/info"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Connector Header Surface Mount, Right Angle 4 position 0.039\" (1.00mm)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Connectors/Rectangular Connectors/Male Pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SM04B-SRSS-TB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "JST Sales America Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturing Status" "Active"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB ID" "24"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SM04B-SRSS-TB_1_1"
+				(rectangle
+					(start -1.27 7.62)
+					(end 3.81 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 3.81)
+					(name "G1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "G2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 191.77 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07e3d43c-c96a-4e57-a9e9-1552ae0c52a7")
+	)
+	(junction
+		(at 233.68 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f44c4b2c-bbe8-4fcc-b7e4-5e1812b32efd")
+	)
+	(bus_entry
+		(at 196.85 53.34)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "646dc23b-c205-4bf0-a3dc-31d9c5706b9e")
+	)
+	(bus_entry
+		(at 196.85 55.88)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d239dd47-aac6-46dd-b19e-4cb31084fdee")
+	)
+	(wire
+		(pts
+			(xy 191.77 96.52) (xy 191.77 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "010c005a-db21-4a7f-9718-782e5e8856d3")
+	)
+	(wire
+		(pts
+			(xy 81.28 92.71) (xy 118.11 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d62b1b9-d6a4-47f0-bf2f-172f4f463a0d")
+	)
+	(wire
+		(pts
+			(xy 200.66 104.14) (xy 168.91 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f1bf5b8-681a-4fa7-b949-9edf91811aea")
+	)
+	(wire
+		(pts
+			(xy 199.39 50.8) (xy 218.44 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15d73db5-ce02-4ebe-9229-4a7f37024b95")
+	)
+	(wire
+		(pts
+			(xy 233.68 45.72) (xy 233.68 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1798fac7-afc1-4358-89bc-497dc9b90a16")
+	)
+	(wire
+		(pts
+			(xy 153.67 128.27) (xy 200.66 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a29b178-3df8-47a3-a438-9f9203e00a73")
+	)
+	(wire
+		(pts
+			(xy 153.67 73.66) (xy 171.45 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cbd6c55-49b9-4570-863f-469e1b62f177")
+	)
+	(wire
+		(pts
+			(xy 153.67 111.76) (xy 200.66 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "292029fe-1428-43ce-af5e-cf67b2a2df8d")
+	)
+	(wire
+		(pts
+			(xy 233.68 109.22) (xy 247.65 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bdff1a6-077d-4c85-bf88-1f4ed75668d7")
+	)
+	(wire
+		(pts
+			(xy 233.68 53.34) (xy 233.68 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "419ea9c4-2986-4486-a10d-326cea961b80")
+	)
+	(wire
+		(pts
+			(xy 92.71 118.11) (xy 118.11 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42459ff7-8f79-4422-92be-5fa11c402f72")
+	)
+	(wire
+		(pts
+			(xy 91.44 66.04) (xy 82.55 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f8dac26-1add-477b-ba0d-b5a0757ee910")
+	)
+	(wire
+		(pts
+			(xy 200.66 40.64) (xy 200.66 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52780a3e-fc21-4b20-9ecd-dbf7c8de61ca")
+	)
+	(wire
+		(pts
+			(xy 153.67 114.3) (xy 200.66 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63d613ba-dd2a-4f7e-9f76-30096b3eb9b4")
+	)
+	(wire
+		(pts
+			(xy 171.45 101.6) (xy 171.45 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68278190-08f6-4923-ae9e-71c39894c939")
+	)
+	(wire
+		(pts
+			(xy 171.45 48.26) (xy 218.44 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "688d72aa-a60e-4c9a-909a-41c18a2f56d3")
+	)
+	(wire
+		(pts
+			(xy 205.74 38.1) (xy 205.74 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72e0d91f-26f0-4488-9dcc-8761f5b715b0")
+	)
+	(wire
+		(pts
+			(xy 191.77 77.47) (xy 199.39 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "748de6f1-6d4f-4e2b-96ef-af33a3911238")
+	)
+	(wire
+		(pts
+			(xy 153.67 116.84) (xy 200.66 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7723dfb7-fa88-4e6d-9ada-3fa817cbfafd")
+	)
+	(wire
+		(pts
+			(xy 200.66 101.6) (xy 171.45 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e591f8d-f3e0-49c0-851e-6ef329a04dd0")
+	)
+	(wire
+		(pts
+			(xy 231.14 45.72) (xy 233.68 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "833ad25c-dc69-4a87-84b3-36c928ef9c82")
+	)
+	(wire
+		(pts
+			(xy 171.45 91.44) (xy 153.67 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fc8fdbd-3b0f-4868-94bf-e1cf0dc75d31")
+	)
+	(wire
+		(pts
+			(xy 233.68 101.6) (xy 240.03 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90b7ad0a-0f3e-4e3a-9191-19c5ff34c572")
+	)
+	(wire
+		(pts
+			(xy 92.71 139.7) (xy 200.66 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "940f18e3-f137-4d1f-a347-833bb1804dc4")
+	)
+	(wire
+		(pts
+			(xy 153.67 109.22) (xy 200.66 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aef5f36-eb8f-4f9c-be69-9dabb76fa8ec")
+	)
+	(wire
+		(pts
+			(xy 153.67 77.47) (xy 191.77 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a09a8db7-77b3-4652-a7d0-7c94a84ccce0")
+	)
+	(wire
+		(pts
+			(xy 199.39 53.34) (xy 218.44 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4b8fd45-2308-49f0-bbad-e7ae459e38d9")
+	)
+	(wire
+		(pts
+			(xy 83.82 97.79) (xy 81.28 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a644fc98-a162-406f-903e-d780b5541a03")
+	)
+	(bus
+		(pts
+			(xy 196.85 53.34) (xy 196.85 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8db40f3-f860-40ba-bbe5-1c9e0f593e50")
+	)
+	(bus
+		(pts
+			(xy 196.85 57.15) (xy 184.15 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab137557-338f-45d3-b9b5-b396177d9ea6")
+	)
+	(bus
+		(pts
+			(xy 196.85 55.88) (xy 196.85 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad2679f2-0df3-4824-86b1-58628a38f887")
+	)
+	(wire
+		(pts
+			(xy 99.06 46.99) (xy 99.06 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be89810e-d88a-4db0-9f7e-33bca69eaa0d")
+	)
+	(wire
+		(pts
+			(xy 231.14 53.34) (xy 233.68 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1e5f494-b734-42f3-ae12-3ce588b1b166")
+	)
+	(wire
+		(pts
+			(xy 200.66 96.52) (xy 191.77 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c533dec2-7b62-4264-b42e-2af0df771deb")
+	)
+	(wire
+		(pts
+			(xy 168.91 104.14) (xy 168.91 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c877b763-6d59-4c2f-9b88-5985d1b27fc8")
+	)
+	(wire
+		(pts
+			(xy 205.74 45.72) (xy 218.44 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca08fd6d-bc10-48bc-911c-214d1b7810fa")
+	)
+	(wire
+		(pts
+			(xy 240.03 77.47) (xy 232.41 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d34cf462-ae4d-42e0-b303-de5252674c11")
+	)
+	(wire
+		(pts
+			(xy 240.03 101.6) (xy 240.03 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d80df31d-a3ba-4a95-94fe-6c13139e0061")
+	)
+	(wire
+		(pts
+			(xy 171.45 73.66) (xy 171.45 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da6bb11e-e749-4287-b559-266846cd618a")
+	)
+	(wire
+		(pts
+			(xy 81.28 95.25) (xy 83.82 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc1656b5-d5b6-4d15-bd86-0cb3172e3f9b")
+	)
+	(wire
+		(pts
+			(xy 168.91 93.98) (xy 153.67 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc9abe77-b481-487e-a384-edf94dfa62fd")
+	)
+	(wire
+		(pts
+			(xy 83.82 101.6) (xy 83.82 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd65f361-5117-4977-8d12-134cdba19103")
+	)
+	(wire
+		(pts
+			(xy 200.66 38.1) (xy 205.74 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ece411a3-e860-4f75-ba2a-508e470a4616")
+	)
+	(wire
+		(pts
+			(xy 82.55 46.99) (xy 99.06 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed04c231-b82a-4dc5-b445-7d083211bf62")
+	)
+	(wire
+		(pts
+			(xy 91.44 72.39) (xy 91.44 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed656189-c211-4ef5-a981-adb856025a09")
+	)
+	(wire
+		(pts
+			(xy 99.06 71.12) (xy 118.11 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f634295f-4b59-444c-8b01-810de4c09e62")
+	)
+	(wire
+		(pts
+			(xy 185.42 130.81) (xy 200.66 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa9285ce-c90b-47f8-8774-a25ca0d5f09d")
+	)
+	(rectangle
+		(start 71.628 52.197)
+		(end 75.565 61.722)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 38f3b4a7-0511-4674-8b78-971a1e126cf2)
+	)
+	(rectangle
+		(start 72.263 51.562)
+		(end 74.803 52.197)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a8142f18-00f3-4841-9cca-a9d7330b905a)
+	)
+	(text "(Pair of SMD contacts form 14430 cell holder)"
+		(exclude_from_sim no)
+		(at 40.894 59.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "18c1c89a-b284-4920-a3a5-1b3cf7fab513")
+	)
+	(text "Battery Holder\n"
+		(exclude_from_sim no)
+		(at 41.148 55.372 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "3db58b4a-b8d8-4b59-baa6-4af19ff01fce")
+	)
+	(text "+"
+		(exclude_from_sim no)
+		(at 70.485 52.705 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "43c4b4b4-b516-449f-83fb-01a215af0800")
+	)
+	(text "Solar Connector"
+		(exclude_from_sim no)
+		(at 42.672 94.996 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "5c016d73-3902-43ab-8065-ea31da8726f3")
+	)
+	(text "Sensor Bus"
+		(exclude_from_sim no)
+		(at 224.79 33.02 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "79378039-520c-41e9-8c03-c32de0dcdb52")
+	)
+	(text "USB-C Connector\n"
+		(exclude_from_sim no)
+		(at 43.688 128.016 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "fa9e9571-89b0-47ee-b023-6de6cbbd725a")
+	)
+	(label "I2C_SBUS"
+		(at 185.42 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f951408-672a-4f3e-b94d-6a26dba9ee37")
+	)
+	(label "I2C_SBUS"
+		(at 184.15 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "171a5fca-c20b-4b83-97ea-7941afe187db")
+	)
+	(label "I2C_SBUS_SDA"
+		(at 199.39 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b815d9b-6d63-4464-a0c5-a2dc85e08dd4")
+	)
+	(label "I2C_SBUS_SCL"
+		(at 199.39 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6fc91a78-a015-4dc3-b7cf-a3fff9c32bed")
+	)
+	(label "PANEL_DETECT"
+		(at 247.65 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a1c2c783-0e5a-4568-a35a-ece575ea280e")
+	)
+	(label "PANEL_DETECT"
+		(at 83.82 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dba90fd2-cc77-4b3f-b53f-33cfac3a5f9b")
+	)
+	(symbol
+		(lib_id "DB:AA-CONTACT-SMD")
+		(at 68.58 63.5 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15be4cd3-4d6b-4f02-b9bf-33e739be3302")
+		(property "Reference" "J5"
+			(at 69.85 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AA-CONTACT-SMD"
+			(at 77.47 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:AA-CONTACT-SMD"
+			(at 68.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://parts.djgood.ca/en/part/79/info"
+			(at 68.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Battery Contact Clip Multiple 1 Cell SMD (SMT) Tab"
+			(at 68.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Miscellaneous/Battery Contacts"
+			(at 68.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "53"
+			(at 68.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 68.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 68.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "79"
+			(at 68.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f3b1cdf-20c2-490a-b1b0-2d124174ae70")
+		)
+		(instances
+			(project "solar-ribbit"
+				(path "/9ed354c1-be1e-4ed3-9daf-708fd38c762e"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 40.64 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b00292b-8826-4e4b-adac-c5e661fc6653")
+		(property "Reference" "#PWR047"
+			(at 200.66 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "055555ac-6f11-41a9-873f-76d3bf2bd7cb")
+		)
+		(instances
+			(project "solar-ribbit"
+				(path "/9ed354c1-be1e-4ed3-9daf-708fd38c762e"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 91.44 72.39 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63024e79-73e3-44b3-9801-218498362c8d")
+		(property "Reference" "#PWR056"
+			(at 91.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 91.44 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b07ca137-480c-435c-b0fb-35bf7e92b867")
+		)
+		(instances
+			(project "solar-ribbit"
+				(path "/9ed354c1-be1e-4ed3-9daf-708fd38c762e"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 233.68 55.88 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96f5d90e-d7bf-4499-bf9c-3be33ae4db5f")
+		(property "Reference" "#PWR037"
+			(at 233.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 233.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18721893-8267-4175-96fc-6a072d68f4bc")
+		)
+		(instances
+			(project "solar-ribbit"
+				(path "/9ed354c1-be1e-4ed3-9daf-708fd38c762e"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DB:54-00125")
+		(at 73.66 95.25 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c69a7a63-89ad-47f3-b6b8-431fca8a0aa1")
+		(property "Reference" "J3"
+			(at 70.104 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.5mm/1.1mm"
+			(at 75.946 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:54-00125"
+			(at 74.93 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://parts.djgood.ca/en/part/101/info"
+			(at 74.93 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power Barrel Connector Jack 1.10mm ID (0.043\"), 3.50mm OD (0.138\") Through Hole, Right Angle"
+			(at 73.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Connectors/Power Connectors"
+			(at 73.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "54-00125"
+			(at 73.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Tensility International Corp"
+			(at 73.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 73.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "101"
+			(at 73.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b80de665-741c-4b0e-a146-8cb3730eb8f2")
+		)
+		(pin "2"
+			(uuid "cb53a628-2b42-45e4-bbec-a42d2b73fcec")
+		)
+		(pin "3"
+			(uuid "2b2795c5-c1de-419b-a9e4-35365d30973c")
+		)
+		(instances
+			(project ""
+				(path "/9ed354c1-be1e-4ed3-9daf-708fd38c762e"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DB:AA-CONTACT-SMD")
+		(at 68.58 44.45 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2bca619-3790-411d-9f24-3a5ab8b3c72f")
+		(property "Reference" "J4"
+			(at 69.85 40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AA-CONTACT-SMD"
+			(at 77.47 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:AA-CONTACT-SMD"
+			(at 68.58 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://parts.djgood.ca/en/part/79/info"
+			(at 68.58 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Battery Contact Clip Multiple 1 Cell SMD (SMT) Tab"
+			(at 68.58 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Miscellaneous/Battery Contacts"
+			(at 68.58 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "53"
+			(at 68.58 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 68.58 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 68.58 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "79"
+			(at 68.58 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1107e6c-63fe-41fa-a4bd-fdf0102d5cf5")
+		)
+		(instances
+			(project ""
+				(path "/9ed354c1-be1e-4ed3-9daf-708fd38c762e"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DB:SM04B-SRSS-TB")
+		(at 223.52 50.8 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0a19694-e7ba-40be-982b-053bfdd5f2f7")
+		(property "Reference" "CN1"
+			(at 224.79 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM04B-SRSS-TB"
+			(at 224.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:JST_SH_SM04B-SRSS-TB"
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://parts.djgood.ca/en/part/24/info"
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Surface Mount, Right Angle 4 position 0.039\" (1.00mm)"
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Connectors/Rectangular Connectors/Male Pins"
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SM04B-SRSS-TB"
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST Sales America Inc."
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "24"
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "G2"
+			(uuid "5840cd8b-05ed-4bb4-ad5f-18d0f9b12901")
+		)
+		(pin "2"
+			(uuid "c030015a-6c2c-466b-8738-d7375627eb72")
+		)
+		(pin "G1"
+			(uuid "e3f3789f-9d97-4a0a-8e97-62c4aae776ec")
+		)
+		(pin "1"
+			(uuid "ad08226a-b728-4d7c-84d0-7b7ffaabeaa7")
+		)
+		(pin "4"
+			(uuid "56592ab8-db40-460c-9e13-4c06068b187f")
+		)
+		(pin "3"
+			(uuid "3d06cc55-a05b-4c20-b545-33c5a493602a")
+		)
+		(instances
+			(project ""
+				(path "/9ed354c1-be1e-4ed3-9daf-708fd38c762e"
+					(reference "CN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 83.82 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa1145f4-fd37-49ec-b099-6adb545ddc74")
+		(property "Reference" "#PWR048"
+			(at 83.82 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6412b72-c084-4215-bf58-13ccd75d571a")
+		)
+		(instances
+			(project "solar-ribbit"
+				(path "/9ed354c1-be1e-4ed3-9daf-708fd38c762e"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 93.98)
+		(size 33.02 49.53)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "62c62feb-c000-4042-a03b-2e7244ff3cc2")
+		(property "Sheetname" "nRF9151 - GPIO + UICC"
+			(at 200.66 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nrf9151_gpio_uicc.kicad_sch"
+			(at 200.66 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LNA_EN" output
+			(at 233.68 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "631fb282-0288-49d1-ab3b-1058897f48ca")
+		)
+		(pin "USB_UART" bidirectional
+			(at 200.66 139.7 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9fa91576-ca6e-4253-a099-8a197b3d6f6b")
+		)
+		(pin "I2C_PMIC" bidirectional
+			(at 200.66 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7de875e7-5511-433c-b224-a07a81e89576")
+		)
+		(pin "I2C_SBUS" bidirectional
+			(at 200.66 130.81 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ccb4b535-3b2c-4919-8497-cb66f7a83f59")
+		)
+		(pin "PWR_3V3H" input
+			(at 200.66 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "38cfba2b-f2c0-42bd-a474-63135adf6c54")
+		)
+		(pin "SBUS_EN" output
+			(at 200.66 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e1efa5c5-8922-4220-98cc-4618dcce633f")
+		)
+		(pin "BOOST_PWM_EN" output
+			(at 200.66 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3734d1ea-8541-43af-9f1b-751f191797fd")
+		)
+		(pin "STAT" input
+			(at 200.66 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b676c2bd-631d-47c0-a2de-881c5c0a9c44")
+		)
+		(pin "nINT" input
+			(at 200.66 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "86947eb2-0994-4440-874d-aefa5a10028a")
+		)
+		(pin "nCE" input
+			(at 200.66 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4ca12519-2381-42ef-a02d-3ce30a0c4cf4")
+		)
+		(pin "nQON" input
+			(at 200.66 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dd458d7e-9ebe-41d1-b17b-7f027278795a")
+		)
+		(pin "PANEL_DETECT" input
+			(at 233.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4546d89d-fb37-4daf-aad9-c0f12ba21616")
+		)
+		(instances
+			(project "solar-ribbit"
+				(path "/9ed354c1-be1e-4ed3-9daf-708fd38c762e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 68.58)
+		(size 35.56 63.5)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c81ca363-7c56-4b28-9db8-515ad3aeab40")
+		(property "Sheetname" "Power Management"
+			(at 118.11 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_management.kicad_sch"
+			(at 118.11 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PWR_USB_5V0" input
+			(at 118.11 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dfae8e53-8b3f-40df-bf06-9f031a7f5a16")
+		)
+		(pin "PWR_SOLAR" input
+			(at 118.11 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "555c6e78-b619-461d-b84a-a0c0ffbb1221")
+		)
+		(pin "PWR_BATT" input
+			(at 118.11 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e7eb22ad-3c49-4d6a-971b-de346400be79")
+		)
+		(pin "I2C_PMIC" bidirectional
+			(at 153.67 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ab868a9f-458b-49c8-bd0a-fb08062c170b")
+		)
+		(pin "nINT" output
+			(at 153.67 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b3e1f907-e8cd-4987-b5e7-eefd5f1f65e7")
+		)
+		(pin "STAT" output
+			(at 153.67 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c13f8f70-6657-4e5b-9075-44009cd27db9")
+		)
+		(pin "PWR_3V3H" bidirectional
+			(at 153.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "676f7549-0fb8-44c0-a9d4-0881470044d5")
+		)
+		(pin "BOOST_PWM_EN" input
+			(at 153.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "406c0bfd-4b46-46a8-8432-513c17721b44")
+		)
+		(pin "nQON" input
+			(at 153.67 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "eb766bac-0ba2-4a97-b7dd-9c87745bd4a8")
+		)
+		(pin "nCE" input
+			(at 153.67 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "06a36e7a-f3b9-4ece-9ed8-5a5d332c24ca")
+		)
+		(pin "PWR_3V3_LS" bidirectional
+			(at 153.67 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3be229c6-e017-4ccd-8bb9-fd14d90d7b5e")
+		)
+		(pin "SBUS_EN" input
+			(at 153.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a08d685a-bfbc-4953-97e1-e276ee5cefec")
+		)
+		(instances
+			(project "solar-ribbit"
+				(path "/9ed354c1-be1e-4ed3-9daf-708fd38c762e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 64.77 114.935)
+		(size 27.94 28.575)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c85f1c16-e975-49a3-a359-81865099af72")
+		(property "Sheetname" "USB"
+			(at 64.77 114.2234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_conn.kicad_sch"
+			(at 64.77 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_UART" bidirectional
+			(at 92.71 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "40a3503a-682f-41d3-8f2a-d1c01e9af400")
+		)
+		(pin "PWR_5V0_USB" output
+			(at 92.71 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "675757cd-48d8-4dcc-80a8-7964ca073b43")
+		)
+		(instances
+			(project "solar-ribbit"
+				(path "/9ed354c1-be1e-4ed3-9daf-708fd38c762e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 199.39 69.85)
+		(size 33.02 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f729979b-a2d6-4541-8950-66199e8ec791")
+		(property "Sheetname" "nRF9151 - Power + RF"
+			(at 199.39 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nrf9151_power_rf.kicad_sch"
+			(at 199.39 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LNA_EN" input
+			(at 232.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4636dea3-fd18-4c1e-b212-97284e9de66c")
+		)
+		(pin "PWR_3V3H" input
+			(at 199.39 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "580b919f-f78c-4325-a48e-a6ca7823cd66")
+		)
+		(instances
+			(project "solar-ribbit"
+				(path "/9ed354c1-be1e-4ed3-9daf-708fd38c762e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
