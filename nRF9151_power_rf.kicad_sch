@@ -5,7 +5,7 @@
 	(uuid "a54626df-6023-4720-965b-28e963701086")
 	(paper "A4")
 	(title_block
-		(title "Low Power LTE & GNSS SiP")
+		(title "nRF9151 - Low Power LTE & GNSS SiP")
 		(date "2025-01-04")
 		(rev "A")
 	)

@@ -5,6 +5,7 @@
 	(uuid "9ed354c1-be1e-4ed3-9daf-708fd38c762e")
 	(paper "A4")
 	(title_block
+		(title "Solar Powered Ribbit Network Frog Sensor")
 		(date "2025-01-04")
 	)
 	(lib_symbols
@@ -387,13 +388,13 @@
 				)
 			)
 		)
-		(symbol "DB:SM04B-SRSS-TB"
+		(symbol "DB:BM04B-SRSS-TB"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "CN"
+			(property "Reference" "J"
 				(at -1.27 8.89 0)
 				(effects
 					(font
@@ -402,7 +403,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SM04B-SRSS-TB"
+			(property "Value" "BM04B-SRSS-TB"
 				(at -1.27 -6.35 0)
 				(effects
 					(font
@@ -411,7 +412,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "footprints:JST_SH_SM04B-SRSS-TB"
+			(property "Footprint" "footprints:BM04B-SRSS-TB"
 				(at 0 0 0)
 				(effects
 					(font
@@ -420,7 +421,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://parts.djgood.ca/en/part/24/info"
+			(property "Datasheet" "http://parts.djgood.ca/en/part/102/info"
 				(at 0 0 0)
 				(effects
 					(font
@@ -429,7 +430,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Connector Header Surface Mount, Right Angle 4 position 0.039\" (1.00mm)"
+			(property "Description" "Connector Header Surface Mount 4 position 0.039\" (1.00mm)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -447,7 +448,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "SM04B-SRSS-TB"
+			(property "MPN" "BM04B-SRSS-TB"
 				(at 0 0 0)
 				(effects
 					(font
@@ -474,7 +475,16 @@
 					(hide yes)
 				)
 			)
-			(property "Part-DB ID" "24"
+			(property "Part-DB ID" "102"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "QWIIC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -492,7 +502,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SM04B-SRSS-TB_1_1"
+			(symbol "BM04B-SRSS-TB_1_1"
 				(rectangle
 					(start -1.27 7.62)
 					(end 3.81 -5.08)
@@ -791,6 +801,16 @@
 		)
 		(uuid "1798fac7-afc1-4358-89bc-497dc9b90a16")
 	)
+	(bus
+		(pts
+			(xy 182.88 58.42) (xy 195.58 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1801cd88-d8f7-46f0-b8ac-f2c161f16990")
+	)
 	(wire
 		(pts
 			(xy 153.67 128.27) (xy 200.66 128.27)
@@ -823,7 +843,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 109.22) (xy 247.65 109.22)
+			(xy 233.68 109.22) (xy 248.92 109.22)
 		)
 		(stroke
 			(width 0)
@@ -913,7 +933,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 77.47) (xy 199.39 77.47)
+			(xy 191.77 77.47) (xy 200.66 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1033,16 +1053,6 @@
 	)
 	(bus
 		(pts
-			(xy 196.85 57.15) (xy 184.15 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab137557-338f-45d3-b9b5-b396177d9ea6")
-	)
-	(bus
-		(pts
 			(xy 196.85 55.88) (xy 196.85 57.15)
 		)
 		(stroke
@@ -1050,6 +1060,16 @@
 			(type default)
 		)
 		(uuid "ad2679f2-0df3-4824-86b1-58628a38f887")
+	)
+	(bus
+		(pts
+			(xy 196.85 57.15) (xy 195.58 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5bbbb65-dd1f-4c8b-9614-fe4dccf601fa")
 	)
 	(wire
 		(pts
@@ -1103,7 +1123,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 77.47) (xy 232.41 77.47)
+			(xy 240.03 77.47) (xy 233.68 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1235,9 +1255,9 @@
 		)
 		(uuid a8142f18-00f3-4841-9cca-a9d7330b905a)
 	)
-	(text "(Pair of SMD contacts form 14430 cell holder)"
+	(text "Pair of SMD contacts form\na 14430 cell holder"
 		(exclude_from_sim no)
-		(at 40.894 59.944 0)
+		(at 37.846 59.944 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1247,7 +1267,7 @@
 	)
 	(text "Battery Holder\n"
 		(exclude_from_sim no)
-		(at 41.148 55.372 0)
+		(at 38.1 54.864 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1265,9 +1285,19 @@
 		)
 		(uuid "43c4b4b4-b516-449f-83fb-01a215af0800")
 	)
+	(text "via STEMMA QT / QWIIC\nconnector"
+		(exclude_from_sim no)
+		(at 258.318 52.832 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5443a318-4659-46fa-8aac-89045d2cdd98")
+	)
 	(text "Solar Connector"
 		(exclude_from_sim no)
-		(at 42.672 94.996 0)
+		(at 39.37 92.71 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1275,9 +1305,9 @@
 		)
 		(uuid "5c016d73-3902-43ab-8065-ea31da8726f3")
 	)
-	(text "Sensor Bus"
+	(text "to Sensor Bus"
 		(exclude_from_sim no)
-		(at 224.79 33.02 0)
+		(at 258.826 47.498 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1285,9 +1315,19 @@
 		)
 		(uuid "79378039-520c-41e9-8c03-c32de0dcdb52")
 	)
+	(text "3.5mm OD / 1.1mm ID Female \nDC Barrel Jack Connector"
+		(exclude_from_sim no)
+		(at 38.862 98.044 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f5b0ef3f-9f1d-4216-91ad-7159c9c535b1")
+	)
 	(text "USB-C Connector\n"
 		(exclude_from_sim no)
-		(at 43.688 128.016 0)
+		(at 40.64 127.508 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1307,7 +1347,7 @@
 		(uuid "0f951408-672a-4f3e-b94d-6a26dba9ee37")
 	)
 	(label "I2C_SBUS"
-		(at 184.15 57.15 0)
+		(at 182.88 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1340,7 +1380,7 @@
 		(uuid "6fc91a78-a015-4dc3-b7cf-a3fff9c32bed")
 	)
 	(label "PANEL_DETECT"
-		(at 247.65 109.22 180)
+		(at 248.92 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1465,6 +1505,131 @@
 			(project "solar-ribbit"
 				(path "/9ed354c1-be1e-4ed3-9daf-708fd38c762e"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DB:BM04B-SRSS-TB")
+		(at 223.52 50.8 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "576e8040-8f34-4de5-a6d8-992ae5c39d48")
+		(property "Reference" "J7"
+			(at 224.79 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BM04B-SRSS-TB"
+			(at 224.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:BM04B-SRSS-TB"
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://parts.djgood.ca/en/part/102/info"
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Surface Mount 4 position 0.039\" (1.00mm)"
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Connectors/Rectangular Connectors/Male Pins"
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BM04B-SRSS-TB"
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST Sales America Inc."
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "102"
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "G2"
+			(uuid "c240372b-bbc5-41fe-aadd-2110f9186933")
+		)
+		(pin "1"
+			(uuid "11b53bc7-660f-428a-8121-560fa1799e7f")
+		)
+		(pin "4"
+			(uuid "e5da3fbe-3915-4459-8188-992aee5d3459")
+		)
+		(pin "G1"
+			(uuid "d2e1e4ea-6a2a-4dcb-a652-ed5f915f37ef")
+		)
+		(pin "2"
+			(uuid "61d0af79-c9dc-40da-b225-41b00de3c668")
+		)
+		(pin "3"
+			(uuid "638eda77-0628-4b8e-8f94-fa73b918f65e")
+		)
+		(instances
+			(project ""
+				(path "/9ed354c1-be1e-4ed3-9daf-708fd38c762e"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -1887,131 +2052,6 @@
 			(project ""
 				(path "/9ed354c1-be1e-4ed3-9daf-708fd38c762e"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DB:SM04B-SRSS-TB")
-		(at 223.52 50.8 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f0a19694-e7ba-40be-982b-053bfdd5f2f7")
-		(property "Reference" "CN1"
-			(at 224.79 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SM04B-SRSS-TB"
-			(at 224.79 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:JST_SH_SM04B-SRSS-TB"
-			(at 223.52 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://parts.djgood.ca/en/part/24/info"
-			(at 223.52 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector Header Surface Mount, Right Angle 4 position 0.039\" (1.00mm)"
-			(at 223.52 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Connectors/Rectangular Connectors/Male Pins"
-			(at 223.52 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SM04B-SRSS-TB"
-			(at 223.52 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "JST Sales America Inc."
-			(at 223.52 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturing Status" "Active"
-			(at 223.52 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part-DB ID" "24"
-			(at 223.52 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "G2"
-			(uuid "5840cd8b-05ed-4bb4-ad5f-18d0f9b12901")
-		)
-		(pin "2"
-			(uuid "c030015a-6c2c-466b-8738-d7375627eb72")
-		)
-		(pin "G1"
-			(uuid "e3f3789f-9d97-4a0a-8e97-62c4aae776ec")
-		)
-		(pin "1"
-			(uuid "ad08226a-b728-4d7c-84d0-7b7ffaabeaa7")
-		)
-		(pin "4"
-			(uuid "56592ab8-db40-460c-9e13-4c06068b187f")
-		)
-		(pin "3"
-			(uuid "3d06cc55-a05b-4c20-b545-33c5a493602a")
-		)
-		(instances
-			(project ""
-				(path "/9ed354c1-be1e-4ed3-9daf-708fd38c762e"
-					(reference "CN1")
 					(unit 1)
 				)
 			)
@@ -2458,7 +2498,7 @@
 		)
 	)
 	(sheet
-		(at 199.39 69.85)
+		(at 200.66 69.85)
 		(size 33.02 16.51)
 		(fields_autoplaced yes)
 		(stroke
@@ -2470,7 +2510,7 @@
 		)
 		(uuid "f729979b-a2d6-4541-8950-66199e8ec791")
 		(property "Sheetname" "nRF9151 - Power + RF"
-			(at 199.39 69.1384 0)
+			(at 200.66 69.1384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2479,7 +2519,7 @@
 			)
 		)
 		(property "Sheetfile" "nrf9151_power_rf.kicad_sch"
-			(at 199.39 86.9446 0)
+			(at 200.66 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2488,7 +2528,7 @@
 			)
 		)
 		(pin "LNA_EN" input
-			(at 232.41 77.47 0)
+			(at 233.68 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2498,7 +2538,7 @@
 			(uuid "4636dea3-fd18-4c1e-b212-97284e9de66c")
 		)
 		(pin "PWR_3V3H" input
-			(at 199.39 77.47 180)
+			(at 200.66 77.47 180)
 			(effects
 				(font
 					(size 1.27 1.27)

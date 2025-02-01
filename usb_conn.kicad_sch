@@ -5,6 +5,7 @@
 	(uuid "af82c7e1-c909-4880-acc2-fb77d2066dc6")
 	(paper "A4")
 	(title_block
+		(title "USB Interface")
 		(date "2025-01-04")
 	)
 	(lib_symbols

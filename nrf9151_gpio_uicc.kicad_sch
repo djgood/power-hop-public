@@ -5,6 +5,7 @@
 	(uuid "afdc8898-e14b-4c51-bb12-8c6cc96d1739")
 	(paper "A4")
 	(title_block
+		(title "nRF9151 - GPIO + UICC")
 		(date "2025-01-04")
 	)
 	(lib_symbols
